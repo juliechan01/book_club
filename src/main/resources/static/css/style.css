@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* CSS reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Fixed width container class that will "auto-center" itself */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.head,.head1 {
+	margin-top: 25px;
+}
+
+.head1, .subhead {
+	display: flex;
+	justify-content: space-between;
+}
+
+.head1 > button {
+	flex-grow: 1;
+	align-items: center;	
+}
+
+.content, .actions {
+	display: flex;
+	justify-content: space-around;
+}
+
+.actions {
+	align-items: center;
+}
+
+.name, .email, .pw, .confirm {
+	padding-top: 2.5px;
+	padding-bottom: 2.5px;
+}
+
+button {
+	margin-top: 10px;
+}
